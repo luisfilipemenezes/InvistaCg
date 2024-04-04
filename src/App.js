@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes,Route, } from 'react-router-dom';
+import Login from './pages/login'
+import Home from './pages/home'
+import Cadastro from './pages/cadastro'
+import RedefinirSenha from './pages/redefinirSenha';
+import SidebarComponente from './pages/teste'
+// eslint-disable-next-line no-unused-vars
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+          <Route exact path="/"  element = {<Home/>}/>
+          <Route exact path="/login"  element = {<Login/>}/>
+          <Route exact path="/cadastro"  element = {<Cadastro/>}/>
+          <Route exact path="/redefinirSenha"  element = {<RedefinirSenha/>}/>
+          <Route exact path="/teste"  element = {<SidebarComponente/>}/>
+
+      </Routes>
+
     </div>
   );
 }
