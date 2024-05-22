@@ -2,6 +2,7 @@ import FormHome from '../componentes/formHome'
 import Header from '../componentes/header'
 import { HistoriaComponente } from '../componentes/historiaHome';
 import CardComponentHome from '../componentes/CardComponentHome';
+import MyComponent from '../componentes/Map';
 
 
 export default  function Home(){
@@ -13,16 +14,24 @@ export default  function Home(){
         <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
     return (
         <>
-        <div class = "max-h-screen overflow-clip">
-         <Header/>
-         <div class= "w-screen h-screen">
-             <img class="object-cover h-screen w-screen" src='https://images.unsplash.com/photo-1515344905723-babc01aac23d?auto=format&fit=crop&q=80&w=2076&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-            <div class = "w-full h-full bg-black">
-                
+        <div class = "max-h-screen overflow-clip ">
+             
+         <div className='h-screen'>
+            <Header/>
+            <div className='h-full mx-12 '>
+                <div className='pt-28 md:w-2/5  w-full'>
+                    <p className='text-6xl font-abc'>Bem Vindo!</p>
+                    <p className='text-xl mt-10 '>A Invista CG elabora planos de investimento público, planeja e gere estratégias de desenvolvimento económico, social e ambiental da cidade de Campina Grande.</p>
+                </div>
             </div>
          </div>
+         
         </div>
-            <HistoriaComponente/>
+        <HistoriaComponente/>
+        <div className=' flex justify-center m-10'>
+                <MyComponent/>
+        </div>
+          
             <CardComponentHome/>
             <FormHome/>
 

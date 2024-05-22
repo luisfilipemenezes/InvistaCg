@@ -1,59 +1,31 @@
-export function HistoriaComponente(){
-    return(
-        <div>
-            <section class="relative  h-5/6 bg-blueGray-50 mx-auto p-12 ">
-                <div class="items-center  h-ull flex flex-wrap">
-                    <div class="w-full md:w-3/6 ml-auto mr-auto px-4">
-                    <div class="md:pr-12 ">
-                            <h3 class="text-3xl lg:text-5xl ">História</h3>
-                            <p class="mt-4 text-base font-light lg:text-lg leading-relaxed text-justify text-blueGray-500">
-                                Campina Grande é uma cidade brasileira localizada no estado da Paraíba. Ela surgiu em 1717, quando o Capitão-mor Francisco Rodrigues de Almeida chegou à região e a batizou de “Campina Grande do Bispo”. A cidade foi fundada oficialmente em 1864, quando foi elevada à categoria de município
-
-                                Visite: https://palavranario.com/a-origem-de-campina-grande/ | Palavranario, o mais revolucionário dicionário online do mundo!
-                            </p>
-                                <ul class="list-none mt-6">
-                                    <li class="py-2">
-                                        <div class="flex items-center">
-                                            <div>
-                                                <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-800 mr-3"><i class="fas fa-fingerprint"></i></span>
-                                            </div>
-                                            <div>
-                                                <h4 class="text-blueGray-500 font-light">
-                                                    Rainha da Borborema 
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                            <div class="flex items-center">
-                                                <div>
-                                                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-800 mr-3"><i class="fab fa-html5"></i></span>
-                                                </div>
-                                            <div>
-                                                <h4 class="text-blueGray-500 font-light">Vila Nova da Rainha</h4>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                         <div class="flex items-center">
-                                             <div>
-                                                <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-gray-800 mr-3"><i class="far fa-paper-plane"></i></span>
-                                             </div>
-                                             <div>
-                                                <h4 class="text-blueGray-500 font-light">Dona do Maior São João do Mundo</h4>
-                                            </div>
-                                        </div>
-                                     </li>
-                                 </ul>
-                            </div>
-                    </div>
-                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4 ">
-                            <img alt="..." class="lg:mt-0 max-w-full  rounded-lg shadow-lg" src="https://paraibacriativa.com.br/wp-content/uploads/2015/09/pioneiros-da-borborema-1.jpg"/>
-
-                        </div>
-                    </div>
-                    
-            </section>
-        </div>
-    )
-}
+export function HistoriaComponente() {
+    return (
+      <div>
+        <section className="bg-black mx-auto w-full flex justify-center items-center ">
+          <div className="lg:py-20 lg:px-56 p-12">
+            <div className="text-base font-light 2xl:text-2xl leading-relaxed text-white text-justify">
+              <p>
+                Campina Grande é um município brasileiro no estado da Paraíba. Considerada um dos <strong>principais polos industriais da Região Nordeste</strong>,
+                foi fundada em 1 de dezembro de 1697, tendo sido elevada à categoria de cidade em 11 de outubro de 1864. Pertence à Região Geográfica Imediata de Campina Grande e à Região Geográfica Intermediária de Campina Grande. De acordo com o Censo de 2022 do IBGE, sua população é de 419 379 habitantes, sendo a segunda cidade mais populosa da Paraíba, e sua região metropolitana,
+                formada por dezenove municípios,
+                possui uma população estimada em 651 619 habitantes.
+              </p>
+              <p className="mt-4">
+                Distante 128 quilômetros da capital estadual, João Pessoa, Campina Grande é um importante centro universitário, contando com <strong>vinte e uma
+                universidades e faculdades</strong>, sendo três delas públicas. E também é a cidade com proporcionalmente o maior número de doutores do Brasil,
+                1 para cada 590 habitantes, seis vezes a média nacional. Além de ensino superior, o município é destaque também em centros
+                de capacitação para o nível médio e técnico.
+              </p>
+              <p className="mt-4">
+                O município sedia ainda variados eventos culturais, destacando-se os festejos de São João, que acontecem durante todo o mês de junho (chamado de <strong>"O Maior São João do Mundo"</strong>),
+                Festival Internacional de Música (FIMUS), Festival Internacional de Jazz (FIMUS Jazz), encontros religiosos como o Encontro da Nova Consciência (ecumênico),
+                o Encontro para a Consciência Cristã (cristão) e o CRESCER
+                (Encontro da Família Católica) realizados durante o carnaval, além do Festival de Inverno e vários outros eventos.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+  

@@ -5,25 +5,17 @@ export default function FormHome(){
         <div class="h-screen   flex">
                 <div class="hidden lg:flex w-full lg:w-1/2  login_img_section
                 justify-around items-center">
-                    <div 
-                        class=" 
-                        bg-black 
-                        opacity-20 
-                        inset-0 
-                        z-0"
-                        >
-
-                        </div>
-                    <div class="w-full mx-auto px-20  flex-col items-center space-y-6">
+                   
+                    <div class="w-full mx-auto px-12  flex-col items-center space-y-6">
                     <div class="flex  justify-center lg:justify-start mt-6">
-                        <a href="#" class="hover:bg-blue-700 hover:text-white hover:-translate-y-1 transition-all duration-500 bg-white text-gray-800 mt-4 px-4 py-2 rounded-2xl font-bold mb-2 text-6xl">Entre em contato conosco</a>
+                        <a href="#" class=" hover:text-gray-900 hover:-translate-y-1 transition-all duration-500 bg-white text-black mt-4 px-4 py-2 rounded-2xl font-bold mb-2 text-6xl">Entre em contato conosco</a>
                     </div>
                     </div>
                 </div>
-                <div class="flex w-full lg:w-1/2 justify-center items-center bg-white space-y-8">
-                    <div class="w-full px-8 md:px-32 lg:px-24">
-                    <form class="bg-white rounded-md shadow-2xl p-5 ">
-                    <h1 class="text-gray-800 font-bold text-4xl mb-1">CADASTRE-SE AGORA</h1>
+                <div class="flex w-full lg:w-1/2 justify-center  items-center  space-y-8">
+                    <div class="w-full justify-end flex md:mx-12 mx-6">
+                    <form class="bg-white rounded-md shadow-2xl md:p-20 p-8">
+                    <h1 class="text-gray-800 font-bold md:text-4xl text-3xl mb-1">CADASTRE-SE AGORA</h1>
                     <p class="text-sm font-normal text-gray-600 mb-8">Sua sugestão é muito importante!</p>
                     <div class="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -38,13 +30,14 @@ export default function FormHome(){
                         <input class="pl-2 w-full outline-none border-none" type="text" name="password" id="password" placeholder="Sugestão" />
                         
                     </div>
-                    <button type="submit" class="block w-full bg-gray-700 mt-5 py-2 rounded-2xl hover:bg-yellow-500 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2">Enviar</button>
+                    <button type="submit" class="block w-full bg-black mt-5 py-2 rounded-2xl hover:bg-yellow-500 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2">Enviar</button>
                    
                     
                     </form>
                     </div>
                     
-                </div>
+                </div> 
+
             </div>
     )
 }

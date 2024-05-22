@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.ImagemCampinaCentral {
+    background-image: url("../img/Campina\ noite.jpeg");
+    background-size: cover; /* Para manter o tamanho original da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+  }
+
+.Altura{
+    height: 70vh;
+}
+
+
 
