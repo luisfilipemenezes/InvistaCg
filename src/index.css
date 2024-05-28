@@ -11,8 +11,22 @@
   }
 
 .Altura{
-    height: 70vh;
+    height: 90%;
 }
 
+.AlturaMaps{
+  height: 70vh;
+}
 
+.HeightAltura{
+  height: 10vh;
+}
+
+.TropeirosBackGorund {
+  background-image: url('../src/assets_invista_cg/banner.png');
+  background-size: contain; /* Redimensiona a imagem para caber dentro do elemento */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  background-position: bottom right ; /* Centraliza a imagem */
+  height: 91vh; /* Faz o elemento ter a altura da janela */
+}
 

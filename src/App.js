@@ -1,20 +1,23 @@
 import { Routes,Route, } from 'react-router-dom';
-import Login from './pages/login'
 import Home from './pages/home'
-import Cadastro from './pages/cadastro'
-import RedefinirSenha from './pages/redefinirSenha';
-import SidebarComponente from './pages/teste'
+import ComercioPag from './pages/comercio';
+import NoticiasRecentes from './pages/noticiasRecentes.js';
+import Industria from './pages/industria';
+import EducacaoPag from './pages/educacao';
+import TurismoPag from "./pages/turismo"
 // eslint-disable-next-line no-unused-vars
 
 function App() {
+  localStorage.setItem("nome", true)
   return (
     <div>
       <Routes>
           <Route exact path="/"  element = {<Home/>}/>
-          <Route exact path="/login"  element = {<Login/>}/>
-          <Route exact path="/cadastro"  element = {<Cadastro/>}/>
-          <Route exact path="/redefinirSenha"  element = {<RedefinirSenha/>}/>
-          <Route exact path="/teste"  element = {<SidebarComponente/>}/>
+          <Route exact path="/comercio"  element = {<ComercioPag/>}/>
+          <Route exact path="/noticias"  element = {<NoticiasRecentes/>}/>
+          <Route exact path="/industria"  element = {<Industria/>}/>
+          <Route exact path="/educacao"  element = {<EducacaoPag/>}/>
+          <Route exact path="/turismo"  element = {<TurismoPag/>}/>
 
       </Routes>
 

@@ -46,7 +46,6 @@ function MyComponent() {
         }}
       >
       <MarkerF position={center}></MarkerF>
-        { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
   ) : <></>
